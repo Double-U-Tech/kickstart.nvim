@@ -152,6 +152,8 @@ vim.o.splitbelow = true
 vim.o.list = true
 vim.opt.listchars = { tab = '» ', trail = '·', nbsp = '␣' }
 
+vim.keymap.set('n', '<leader>pv', ':Ex<CR>', { desc = 'Open netrw file explorer' })
+
 -- Preview substitutions live, as you type!
 vim.o.inccommand = 'split'
 
